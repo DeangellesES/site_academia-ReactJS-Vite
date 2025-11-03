@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* INICIO SECAO TOPO  */
+/* SURGIR */
+/* DE BAIXO PRA CIMA TITULO PÁGINA INICIAL TOPO*/
+
+.js-scroll.ativo {
+  animation: scrollSlide 1s forwards;
+}
+
+@keyframes scrollSlide {
+  from {
+    transform: translate3d(0, 100px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.titulo-topo {
+  color: #ff471a;
+}
+
+.seta-link {
+  font-size: .9rem;
+}
+
+/* INICIO SEÇÃO ESCOLHER */
+
+.escolher-caixa:hover .escolher-caixa_icone {
+  box-shadow: 0px 0px 30px 0 #ff471a;  
+}
+
+.escolher-caixa_icone{ 
+  font-size: 3rem;
+  background-color: #ff471a;
+  color: #fff;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 20px;
+  padding: .7rem;
+}
+
+/* INICIO SEÇÃO CONHEÇA */
+div.swiper-button-prev,
+div.swiper-button-next {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: .7rem;
+} 
+
+/* INICIO SECAO PLANOS */
+.plano-preco {
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #70706bff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.paragrafos-plano {
+  color: #ff471a;
+  padding-top: .4rem;
+  margin-right: .5rem;
+  
+}
+
+/* INICIO SECAO SOBRE */
+.sobre-icone {
+  font-size: 1.4rem;
+  background-color: #ff471a;
+  padding: .5rem;
+  width: 10%;
+  height: 55px;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+/* INICIO SECAO RODAPE */
+.rodape-icon { 
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: #ff471a;
+  padding: .5rem;
+  width: 10%;
+  height: 85%;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.rodape-sociais {
+  background-color: #662200;
+  width: 10%;
+  height: 65%;
+  margin-right: 1rem;
+  padding: .8rem;
+  border-radius: 50%;
+}
+
+.rodape-sociais:hover {
+  background-color: #ff471a;
+  cursor: pointer;
+}
