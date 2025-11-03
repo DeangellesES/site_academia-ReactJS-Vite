@@ -26,9 +26,14 @@
 <ul>
   <li>Paradigma de programação Estruturado</li>
   <li>simbolo na aba em react</li>
-  <li>contato direto para o whatsapp</li>
   <li>styled-components para estilização do site</li>
-  <li>icones utlizado do fontawesome</li>
+  <li>icones utlizado do react icon</li>
   <li>display grid e flex utilizado</li>
   <li>animações com JavaScript e CSS</li>
+  <li>fonts do google fonts</li>
+  <li>bastante efeito com hover e box-shadow</li>
+  <li>Blibioteca Swiper para criação de carrossel</li>
+  <li>animação de contar numeros e ao scrolar o mouse</li>
+  <li>Swiper estilizado e configurado</li>
+  <li>useState, useEffect, SetInterval, clearInterval, operador ternario</li>
 </ul>
