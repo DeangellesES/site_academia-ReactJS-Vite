@@ -24,6 +24,7 @@
 
 <h2>⚙️ Detalhes Técnicos</h2>
 <ul>
+  <li>vite para buildar o projeto</li>
   <li>Paradigma de programação Estruturado</li>
   <li>simbolo na aba em react</li>
   <li>styled-components para estilização do site</li>
@@ -36,4 +37,5 @@
   <li>animação de contar numeros e ao scrolar o mouse</li>
   <li>Swiper estilizado e configurado</li>
   <li>useState, useEffect, SetInterval, clearInterval, operador ternario</li>
+  <li>radial-gradient para background</li>
 </ul>
